@@ -1,0 +1,51 @@
+@media (max-width: 500px) {
+  .newsletter {
+    width: 96%;
+    height: auto;
+    background-color: var(--White);
+    padding: 1.5rem;
+    border-radius: 40px;
+    margin: 2%;
+  }
+  .newsletter_image {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+  }
+  .newsletter_body {
+    text-align: left;
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  .newsletter_body input[type] {
+    margin: 0.2rem 0 0.2rem 0;
+  }
+
+  /* success msg css */
+
+  .success_msg {
+    width: 100%;
+    height: 100%;
+    background-color: var(--White);
+    padding: 10%;
+    border-radius: 0;
+    position: relative;
+  }
+  .success_msg .success_msg_body {
+    margin-top: 40%;
+  }
+  .success_msg h1,
+  .success_msg p,
+  .success_msg svg {
+    margin-bottom: 2rem;
+  }
+  .success_msg button[type="button"] {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+  }
+}

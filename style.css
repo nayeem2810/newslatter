@@ -1,0 +1,170 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --primary_color: hsl(4, 100%, 67%);
+  --Dark_Slate_Grey: hsl(234, 29%, 20%);
+  --Charcoal_Grey: hsl(235, 18%, 26%);
+  --Grey: hsl(231, 7%, 60%);
+  --White: hsl(0, 0%, 100%);
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: var(--Charcoal_Grey);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: var(--Dark_Slate_Grey);
+}
+ul,
+li {
+  color: var(--Charcoal_Grey);
+}
+svg {
+  margin-right: 1rem;
+}
+p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: var(--Charcoal_Grey);
+}
+.newsletter {
+  width: 1000px;
+  height: auto;
+  background-color: var(--White);
+  padding: 1.5rem;
+  border-radius: 40px;
+}
+.newsletter_body {
+  text-align: left;
+  width: 50%;
+  float: left;
+}
+.newsletter_body h1 {
+  margin: 2rem;
+  font-size: 3.5rem;
+  padding-top: 2rem;
+}
+.newsletter_body p {
+  margin: 2rem;
+}
+.newsletter_body ul {
+  margin: 2rem;
+}
+.newsletter_body li {
+  margin-bottom: 0.5rem;
+}
+.newsletter_body h6 {
+  margin: 2rem 0 0 2rem;
+}
+.newsletter .error_msg {
+  text-align: right;
+  margin-left: 45%;
+}
+.newsletter_body input[type] {
+  background-color: var(--White);
+  color: var(--Grey);
+  padding: 1rem 35px;
+  margin: 1rem 0;
+  width: 100%;
+  border-radius: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  margin: 0.5rem 0 0 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.newsletter_body input[type="submit"] {
+  background-color: var(--Dark_Slate_Grey);
+  color: var(--White);
+  padding: 1rem 2rem 1rem 0;
+  margin: 1rem 0;
+  width: 100%;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-align: left;
+  margin: 2rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.newsletter_body input[type="submit"]:hover {
+  color: var(--White);
+  background: linear-gradient(to right, rgb(255, 82, 118), rgb(253, 107, 58));
+  border-top-color: rgb(255, 82, 118);
+  border-bottom-color: rgb(255, 82, 118);
+  border-right-color: rgba(253, 107, 58, 0.6);
+  border-left-color: rgb(255, 82, 118);
+}
+.newsletter_image {
+  text-align: right;
+  width: 50%;
+  float: right;
+}
+
+/* success msg css */
+
+.success_msg {
+  width: 400px;
+  height: 450px;
+  background-color: var(--White);
+  border-radius: 50px;
+  padding: 50px;
+}
+.success_msg h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+.success_msg p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  margin: 0.8em 0;
+}
+.success_msg button[type="button"] {
+  background-color: var(--Dark_Slate_Grey);
+  color: var(--White);
+  padding: 1rem 2rem 1rem 0;
+  width: 100%;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-align: left;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.success_msg button[type="button"] a {
+  color: var(--White);
+}
+.success_msg button[type="button"]:hover {
+  color: var(--White);
+  background: linear-gradient(to right, rgb(255, 82, 118), rgb(253, 107, 58));
+  border-top-color: rgb(255, 82, 118);
+  border-bottom-color: rgb(255, 82, 118);
+  border-right-color: rgba(253, 107, 58, 0.6);
+  border-left-color: rgb(255, 82, 118);
+}
+.success_msg button[type="button"] a:hover {
+  color: var(--White);
+}
